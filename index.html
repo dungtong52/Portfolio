@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,200,0,0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div>
+        <img src="./assets/image/profile.jpg" alt="Profile Photo" />
+        <div class="icon-div">
+          <a href="https://www.facebook.com/tran.trung.dung.520855"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+          <a href="https://github.com/dungtong52"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a href=""><i class="fa-brands fa-twitter"></i></a>
+        </div>
+      </div>
+
+      <!-- Skills -->
+      <section class="sidebar-section">
+        <h3>Skills</h3>
+        <div class="tiny-section">
+          <span>HTML / CSS</span>
+          <div class="progress">
+            <div class="progress-bar" style="width: 90%">90%</div>
+          </div>
+        </div>
+        <div class="tiny-section">
+          <span>JavaScript</span>
+          <div class="progress">
+            <div class="progress-bar" style="width: 70%">70%</div>
+          </div>
+        </div>
+        <div class="tiny-section">
+          <span>React</span>
+          <div class="progress">
+            <div class="progress-bar" style="width: 50%">50%</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Languages -->
+      <section class="sidebar-section">
+        <h3>Languages</h3>
+        <div class="tiny-section">
+          <span>Vietnamese</span>
+          <div class="progress">
+            <div class="progress-bar" style="width: 100%">100%</div>
+          </div>
+        </div>
+        <div class="tiny-section">
+          <span>Japanese</span>
+          <div class="progress">
+            <div class="progress-bar" style="width: 70%">70%</div>
+          </div>
+        </div>
+        <div class="tiny-section">
+          <span>English</span>
+          <div class="progress">
+            <div class="progress-bar" style="width: 50%">50%</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section class="sidebar-section">
+        <h3>Contact</h3>
+        <p>
+          <span class="material-symbols-outlined">stacked_email</span>
+          dungtong52@gmail.com
+        </p>
+        <p>
+          <span class="material-symbols-outlined">settings_phone</span>
+          034-958-2819
+        </p>
+        <p>
+          <span class="material-symbols-outlined">distance</span> Long Biên, Hà
+          Nội
+        </p>
+      </section>
+
+      <section>
+        <div
+          class="language-switcher"
+          role="tablist"
+          aria-label="Site language">
+          <a href="#"><img src="./assets/icons/vietnam.png" alt="vietnam" /></a>
+          <a href="#"><img src="./assets/icons/eng.png" alt="english" /></a>
+          <a href="#"><img src="./assets/icons/japan.png" alt="japan" /></a>
+        </div>
+      </section>
+    </aside>
+
+    <!-- Main -->
+    <main class="main">
+      <!-- Profile card -->
+      <div class="card about-me">
+        <h2>About Me</h2>
+        <div class="about-content">
+          <!-- Bên trái: giới thiệu -->
+          <div class="about-text">
+            <p class="intro">
+              Lập trình viên <strong>Fullstack</strong> (Spring Boot, Thymeleaf)
+              được đào tạo tại <strong>Rikkei Academy</strong>. Có khả năng phát
+              triển ứng dụng web từ <strong>backend</strong> đến
+              <strong>frontend</strong>.
+            </p>
+            <ul>
+              <li>5 năm sinh sống và làm việc tại Nhật Bản.</li>
+              <li>
+                Có bằng <strong>JLPT N2</strong>, am hiểu văn hóa doanh nghiệp
+                Nhật.
+              </li>
+              <li>Kinh nghiệm teamwork trong môi trường đa quốc gia.</li>
+            </ul>
+            <p>
+              Mục tiêu: Phát triển sự nghiệp trong môi trường
+              <strong>Nhật Bản</strong>, với vai trò
+              <strong>Developer</strong> hoặc <strong>BrSE Junior</strong>.
+            </p>
+          </div>
+
+          <div class="about-image">
+            <img src="./assets/image/dev.png" alt="Developer Illustration" />
+          </div>
+        </div>
+      </div>
+
+      <!-- Projects -->
+      <div class="project-container">
+        <h2>My Projects</h2>
+        <div class="projects">
+          <a
+            href="https://your-project1-link.com"
+            target="_blank"
+            class="project-card">
+            <img src="./assets/image/profile.jpg" alt="Project 1" />
+            <h4>Website quản lý sinh viên bằng Spring Boot & Thymeleaf.</h4>
+          </a>
+
+          <a
+            href="https://your-project1-link.com"
+            target="_blank"
+            class="project-card">
+            <img src="./assets/image/profile.jpg" alt="Project 1" />
+            <h4>Website quản lý khóa học bằng Spring Boot & Thymeleaf.</h4>
+          </a>
+
+          <a
+            href="https://your-project2-link.com"
+            target="_blank"
+            class="project-card">
+            <img src="./assets/image/profile.jpg" alt="Project 2" />
+            <h4>Ứng dụng ToDo List với HTML/CSS/JS & REST API.</h4>
+          </a>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
